@@ -1,0 +1,63 @@
+nav {
+  text-align: right;
+  font-family: sans-serif;
+  border-bottom: 3px solid black;
+  margin: 10px;
+}
+
+nav > button {
+  margin: 10px;
+  font-size: large;
+  border: none;
+  font-family: sans-serif;
+  color: black;
+  background-color: transparent;
+}
+nav > button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+#boneka {
+  max-width: 100vw;
+}
+#Judul {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vw;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+}
+#quotes {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+}
+
+#kelapa > button {
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  width: 200px;
+  top: 69%;
+  left: 5%;
+  font-size: 5vh;
+  border: 2px solid black;
+  color: black;
+  border-radius: 50px;
+  background-color: transparent;
+}
+#kelapa > button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+}
